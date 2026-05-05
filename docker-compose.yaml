@@ -18,7 +18,7 @@ services:
     image: mysql:1.0.0
     networks:
     - expense
-    comtainer_name: mysql
+    container_name: mysql
     volumes:
     - mysql:/var/lib/mysql
 
